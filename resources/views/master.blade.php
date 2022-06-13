@@ -5,12 +5,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- hier wird der Wert von der section "title" eines blade templates ausgefüllt,
    welches dieses layout "extended" -->
-   <title>@yield('title')</title>
+   <title>@yield('Classic-cars')</title>
 </head>
 <body>
    <!-- hier wird auch der Wert von der section "title" eines blade templates ausgefüllt,
    welches dieses layout "extended" -->
-   <h1><a href="/messages">@yield('title')</a></h1>
+   <h1><a href="/messages">@yield('classic cars')</a></h1>
    <!-- hier wird der Wert von der section "content" eines blade templates ausgefüllt,
    welches dieses layout "extended" -->
    @yield('content')
