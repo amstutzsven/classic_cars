@@ -1,18 +1,17 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+namespace App\Models;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
-Route::get('/', function () {
-    return view('welcome');
+class Message extends Model
+{
+    use HasFactory;
+}
+
+Route::get('/messages', function () {
+    return view('messages');
 });
+ 
+ 

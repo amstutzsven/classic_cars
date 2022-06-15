@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- hier wird der Wert von der section "title" eines blade templates ausgefüllt,
-   welches dieses layout "extended" -->
-   <title>@yield('Classic-cars')</title>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+   ...
+   <!-- Scripts -->
+   <script src="{{ asset('js/app.js') }}" defer></script>
+   <!-- Styles -->
+   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+   <h1>Tutorial made by Positronx.io</h1>
    <!-- hier wird auch der Wert von der section "title" eines blade templates ausgefüllt,
    welches dieses layout "extended" -->
    <h1><a href="/messages">@yield('classic cars')</a></h1>

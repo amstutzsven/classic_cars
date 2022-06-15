@@ -1,4 +1,14 @@
 // Fonts
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;list-style-type
+$background-color: rgb(193, 247, 229);
+ 
+body {
+font: 100% $font-stack;
+color: $primary-color;
+background-color: $background-color;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables

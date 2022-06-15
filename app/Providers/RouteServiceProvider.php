@@ -8,6 +8,20 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Message extends Model
+{
+    use HasFactory;
+}
+
+Route::get('/messages', function () {
+    return view('messages');
+});
+
 class RouteServiceProvider extends ServiceProvider
 {
     /**
