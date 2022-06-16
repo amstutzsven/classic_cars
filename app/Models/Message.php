@@ -8,7 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Message extends Model
 {
     use HasFactory;
-Route::get('/messages', function () {
-    return 'Hello World';
- });
 }
