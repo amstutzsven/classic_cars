@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: rgb(193, 247, 229);
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10271,3 +10277,4 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
