@@ -1,3 +1,12 @@
+Team Contract:
+https://media-protected.taiga.io/attachments/1/6/1/9/520d8552c98f2d427d780359ce9c78b668e07d95e40ab7c9b4ff3daf3ead/team-contract-classic-cars.docx?token=YrGRAw%3Ah1eiy-1dPKXO8mhwovTlsPYPsqGlMGZRfNRydgJ9VZui_u79fYLAooDPyRn-JL3nkMiFfBkk2sbFxTYJEmblHA#_taiga-refresh=wikipage:1615912
+
+Mockup/Wireframe:
+https://www.figma.com/file/2uPcERc6IN0nfJGEUiIwED/Classic-Cars
+
+DB Scheme:
+https://media-protected.taiga.io/attachments/1/3/e/7/8ffb0928885d7fbef2e344df0fe399948e944e1f8415e1b3ef4658918432/classiccars-scheme.pdf?token=YrGR4Q%3AB7X8-xGLi8hoHuLYk09-1LBUp-OIz53e78QXEwBNw5PALEHUAVBtcNPHwnY8rjxvhNjYdyFRayukc_TqFlWB6w#_taiga-refresh=wikipage:1622316
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
